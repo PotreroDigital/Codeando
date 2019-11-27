@@ -11,6 +11,143 @@
 /*********************************************************************************/
 
 
+.btnfb{
+  align-items: center;
+  transition: width 1s, height 1s, transform 1s;
+
+}
+.btnfb:hover{
+  transform : scale(1.2)
+}
+
+
+
+.redessociales {
+
+  padding-right: 10px;
+
+
+}
+
+
+label {
+    display:block;
+    margin-top:10px;
+    letter-spacing:1px;
+}
+
+.principal {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:Arial, sans-serif;
+}
+
+form {
+    margin:0 auto;
+    width:400px;
+}
+
+
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#3399ff;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+textarea {
+    height:90px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    padding: 6px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 700px 309px;
+  grid-template-rows: 10px 20px;
+  background-color: #9999ff;
+  text-align: center;
+  font-size: 20px;
+
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1150px 400px;
+  grid-template-rows: 10px 20px;
+  background-color: #9999ff;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+
+.contenidohtml1 {
+  border: 1px solid #9999ff;
+  padding: 8px;
+  border: 1px solid
+  #ddd;
+  font-size: .9rem;
+  border-collapse: collapse;
+
+  border-spacing: inherit;
+  border-right: 120px;
+
+
+}
+
+
+
+.image.full {
+
+align-items: center;
+transition: width 1s, height 1s, transform 1s;
+}
+.image.full:hover {
+  transform : scale(1.3)
+}
+
+
+
+
+
+.centro	{
+
+ margin: 10px auto;
+ width: 30px; auto;
+ height: 1000 ;auto;
+ width: 1000px;
+ margin-left: 130px;
+	}
+
+
+}
+.elemento{
+
+	background-color:#99ddff;
+	text-align: center;
+}
+
+
 
 
 	body
@@ -146,6 +283,26 @@
 			}
 
 
+			.btn-subir {
+					 display:block;
+					 width:70px;
+					 height:70px;
+					 color#fff;
+					 position: fixed;
+					 right:5px;
+					 bottom:1px;
+					 border-radius:50%;
+					 line-height:80px;
+					 text-align:center;
+					 z-index:999;
+			}
+
+
+
+
+
+
+
 	/* Sections/Articles */
 
 		section,
@@ -220,6 +377,7 @@
 
 	/* Lists */
 
+
 		ul.default
 		{
 			list-style: none;
@@ -234,7 +392,9 @@
 
 		ul.style1
 		{
-			font-size: 0.90em;
+			font-size: 18px;
+      color:#fff;
+      align-items: stretch;
 		}
 
 			ul.style1 li
@@ -258,7 +418,7 @@
 			}
 
 
-		
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
